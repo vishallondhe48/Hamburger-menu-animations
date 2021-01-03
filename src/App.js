@@ -2,13 +2,14 @@ import React from 'react'
 
 import './styles.scss'
 // import Hamburger from './components/Hamburger'
-import HamburgerArrow from './components/HamburgerArrow'
+import HamburgerCircle from './components/HamburgerCircle'
 
 const App = () => {
   return (
     <>
       <h1>Hamburger animations</h1>
-      <HamburgerArrow />
+
+      <HamburgerCircle />
     </ >
   )
 }

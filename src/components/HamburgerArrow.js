@@ -6,10 +6,11 @@ const HamburgerArrow = () => {
 
     const handleToggle = () => {
         setState(!state)
-        console.log('clicked')
+
     }
     return (
         <>
+            <h2>Hamburger arrow animation</h2>
             <div className="menu-link-wrapper">
                 <div className={state ? "menu-link" : 'menu-link menu-trigger-open'} onClick={handleToggle}>
                     <span className="lines"></span>
